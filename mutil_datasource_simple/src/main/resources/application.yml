@@ -1,0 +1,12 @@
+#spring:
+#  datasource:
+#    master:
+#      username: root
+#      password: 12345678
+#      url: jdbc:mysql://116.62.151.131:3306/product_master?useSSL=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+#      driver-class-name: com.mysql.cj.jdbc.Driver
+#    slave:
+#      username: root
+#        password: 12345678
+#        url: jdbc:mysql://116.62.151.131:3306/product_slave_alphe?useSSL=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+#        driver-class-name: com.mysql.cj.jdbc.Driver

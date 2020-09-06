@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mutil_datasource_dynamic_switch" />
+        <module name="mutil_datasource_simple" />
+        <module name="mutil_datasource_dynamic_add_remove" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mutil_datasource_dynamic_add_remove" target="1.8" />
+      <module name="mutil_datasource_dynamic_switch" target="1.8" />
+      <module name="mutil_datasource_simple" target="1.8" />
+      <module name="remove" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
